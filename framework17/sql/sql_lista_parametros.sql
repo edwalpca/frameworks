@@ -1,0 +1,1 @@
+SELECT * FROM parametros {$param[0]} {$param[1]}

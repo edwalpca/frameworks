@@ -1,0 +1,6 @@
+﻿INSTALACIÓN
+------------------------
+El Framework de Cyberfuel incluye un asistente de instalación que consta de 3 pasos.
+Para iniciar el asistente de instalación, suba los todos los archivos al directorio público del servidor web, 
+luego ingrese en la dirección que corresponda a su dominio: http://www.ejemplo.com/ 
+En ese momento aparecerá el asistente de instalación.

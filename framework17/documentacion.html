@@ -1,0 +1,33 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>PHP-FrameWork - What's New?</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body { font-family: arial, verdana, sans-serif }
+		p { margin-left: 20px }
+		h1 { border-bottom: solid 1px gray; padding-bottom: 20px }
+	</style>
+</head>
+<body>
+	<h1>
+		PHP-FrameWork 1.5 - What's New?</h1>
+<h3>
+		Versión 1.5 ( Actualizado 26-06-2011)</h3>
+	<p>
+		Nuevas características y mejoras:</p>
+	<ul>
+		<li><strong>php-barcode</strong>: Integración del php-barcode, para la generación de código de barras, para ver ejemplo clic <a href="index.php?action=barcode&code=012345678901&encoding=EAN&scale=3&mode=png" target="_blank"">aquí</a>.se agregó una funcion dentro de la libreria &quot;php-barcode.php&quot; para guardar la generacion de codigo de barras en formato .jph de forma local en el servidor como una imagen, para hacer el embedbed a un PDF o manipular el codigo de barras como se desee.</li>
+        <li><strong>xlsx:</strong> Se integra la librería <a href="http://www.codeplex.com/PHPExcel" target="_blank">PHPExcel</a> para la lectura de archivos de Excel version 2007, con esta librería puedes realizar<br>
+        lectura de un archivo y exportar en este mismo formato, para ver ejemplo ver <a href="pkgs/xlsx/index.php">aquí</a>. documentación del <a href="pkgs/xlsx/Documentation/PHPExcel developer documentation.doc" target="_blank">API</a>, solo funciona con PHP 5.2 o mayor.</li>
+        <li><strong>FckEditor 2.6.4.1</strong>: integración del <a href="http://www.fckeditor.net" target="_blank">fckeditor</a> para editar html, ver ejemplo <a href="js/fckeditor/_samples/default.html" target="_blank">aquí</a>, para ver como se usa o integra clic <a href="js/fckeditor/_samples/php/integracion_php.html" target="_blank">aquí</a>.</li>
+        <li><strong>jquery-tooltip:</strong>Libreria de gran utilidad por sus efectos, son ayudas tipo &quot;ToolTip&quot;, para ver ejemplo <a href="js/jquery-tooltip/sample/index.html" target="_blank">aquí</a>.</li>
+        <li><strong>lightbox:</strong> Libreria para efectos de imagenes o de utilidad para galeria de fotos.</li>
+        <li><strong>php-sql:</strong> se corrigió la librería recordset.inc.php, para que inteprete código PHP dentro de los SQL, la version anterior interpretaba unicamente codigo PHP dentro de la funcion listado, con esta version en su .sql puedes meter código por medio de la sintaxis concact ('@php $var = 1 + 2') as resultado, ver ejemplo <a href="sql/sql_example.sql">aqui</a></li>
+        <li><strong>pclzip</strong>: Libreria para Manipular archivos .zip ( ver utilizada en el archivo llamado: &quot;pclzip.lib.php&quot;.</li>
+        <li><strong>Fileupload</strong>: Libreria para subir archivos al servidor de una manera mas facil y con control de archivo. Ver utilidad en el archivo llamado &quot;class.fileupload.inc.php&quot;.</li>
+        <li><strong>Sajax:</strong> Manejo de la libreria Sajax.php, para ver ejemplo de como utilizar revisar la carpeta &quot;sajax_examples&quot; dentro de js.</li>
+</ul>
+<p>
+		<a href="index.php">ir a FrameWork</a></p>
+</body>
+</html>

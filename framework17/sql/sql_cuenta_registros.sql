@@ -1,0 +1,1 @@
+SELECT count(id_form)  as cantidad FROM {$param[0]};

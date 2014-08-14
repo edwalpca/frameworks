@@ -1,0 +1,1 @@
+SELECT * FROM archivos_inc_tpl $param[0] $param[1]

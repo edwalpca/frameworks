@@ -1,0 +1,1 @@
+SELECT * FROM secciones_web  $param[0] $param[1]

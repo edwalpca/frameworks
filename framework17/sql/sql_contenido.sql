@@ -1,0 +1,1 @@
+SELECT * FROM secciones_web  WHERE codigo_seccion  = '{$param[0]}'
